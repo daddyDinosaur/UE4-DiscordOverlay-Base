@@ -6,6 +6,7 @@ The cheat uses the Discord overlay to render the ESP and aimbot visuals, which a
 
 # Disclaimer
 Using cheats in online games is against the terms of service and can result in a ban. Use this cheat at your own risk.
+The library files are winrar'd to save space.
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
