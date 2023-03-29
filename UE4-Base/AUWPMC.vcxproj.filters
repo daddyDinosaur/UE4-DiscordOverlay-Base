@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{987d1179-6599-49ca-a8d8-4942ed6b634d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{9b6e3f6e-a27c-431d-90ad-c77d23355326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{d0db1c53-f712-48fb-949b-20dc934e94fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\UE4">
+      <UniqueIdentifier>{c0124167-84b5-4e6e-9656-bdeaf1d1987d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{8d84883b-1400-4d33-847d-bad37396ec3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Hooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Logging\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Hooking\D3D11Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\SDK\UE4\Transform.cpp">
+      <Filter>SDK\UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\SDK\UE4\UE4.cpp">
+      <Filter>SDK\UE4</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Memory\Memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\imgui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Discord\Discord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cheat\Hooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Logging\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Memory\Memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Hooking\D3D11Hooking.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Hooking\magic_enum.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Color.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Math.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Matrix.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Quat.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Rotator.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Transform.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\UE4.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Vector.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Vector2D.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\SDK\UE4\Vector4.h">
+      <Filter>SDK\UE4</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\libs\strenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\libs\pcg32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\libs\fnv1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\libs\xorstr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Hooking\Detours\detours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imgui_impl_dx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imgui_impl_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\imgui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Hooking\MinHook\MinHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Memory\lazyimporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\ImGuiRendering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Discord\Discord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Cheat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Helpers\libs\zlib.lib" />
+    <Library Include="Helpers\Hooking\Detours\detours.lib" />
+    <Library Include="Helpers\Hooking\Detours\syelog.lib" />
+    <Library Include="Helpers\Hooking\MinHook\libMinHook.x64.lib" />
+    <Library Include="Helpers\Hooking\MinHook\libMinHook.x86.lib" />
+    <Library Include="Helpers\Hooking\MinHook\MinHook.x64.lib" />
+    <Library Include="Helpers\Hooking\MinHook\MinHook.x86.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libs\openssl\BUILD_INFO" />
+    <None Include="libs\openssl\CONTROL" />
+    <None Include="Helpers\Hooking\MinHook\MinHook.x64.dll" />
+    <None Include="Helpers\Hooking\MinHook\MinHook.x86.dll" />
+  </ItemGroup>
+</Project>
